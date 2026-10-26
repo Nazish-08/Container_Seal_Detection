@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training and prediction outputs
+runs/
+wandb/
+mlruns/
+
+# Dataset cache files
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log

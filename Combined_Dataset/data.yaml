@@ -1,0 +1,7 @@
+path: C:/Users/Nazish/OneDrive/Desktop/container seal detection.v3i.coco/Combined_Dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: "container-seal-detection"
+  1: "seal"
